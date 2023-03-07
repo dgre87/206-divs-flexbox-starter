@@ -25,12 +25,12 @@ html {
  */
 
 ::-moz-selection {
-    background: #b3d4fc;
+    background: #f32d8d;
     text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
+    background: #f32d8d;
     text-shadow: none;
 }
 
@@ -42,7 +42,7 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #f89dc9
     margin: 1em 0;
     padding: 0;
 }
@@ -117,17 +117,17 @@ body {
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
+  color: #4a4949;
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #f16059;
+  background-color: #0b0b0b;
   height: 300px;
   display:flex;
   width:30%; 
   justify-content:'center';
   align-items:'center'; 
   border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #fa10a0;
     margin: 1em 0;
     padding: 0;
 }
@@ -264,7 +264,7 @@ body {
 
     pre,
     blockquote {
-        border: 1px solid #999;
+        border: 1px solid #fa10a0;
         page-break-inside: avoid;
     }
 
